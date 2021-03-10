@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+<p>Hi {{ user.username }}!</p> 
+<p>Welcome to InterIntel Limited</p>
+<p>InterIntel Technologies is an IT company based in Nairobi with
+     an array of services ranging from software development, payment 
+     aggregations on mobile, web and applications, loyalty programs, 
+     premium rate service provision (IVR, SMS, USSD) among others. 
+     Our forte is around payment and financial systems, this covers different 
+     faucets from mobile channels (Mobile Apps, SMS, USSD), mobile money payments 
+     (MPESA, AirtelMoney), micro-finance/micro-lending institutions, remittance etc.</p>  <p><a href="{% url 'logout' %}">Log Out</a></p>
+{% else %}
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">Log In</a>
+{% endif %}
+{% endblock %}
