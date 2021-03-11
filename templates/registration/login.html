@@ -6,10 +6,9 @@
 
 {% block content %}
 <h2 style="text-align: center;">Log In</h2>
-<form method="post" style="color:#4a4a4a;text-align: center;" class="login-box">
+<form method="post" id="form" class="login-box">
   {% csrf_token %}
   {{ form.as_p }}
-  <button type="submit" class="btn btn-info btn-rounded waves-effect text-center" value="Log In"
-  style="text-align:center;">Log In</button>
+  <button type="submit" value="Log In">Log In</button>
 </form>
 {% endblock %}
