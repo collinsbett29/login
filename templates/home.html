@@ -5,8 +5,7 @@
 {% if user.is_authenticated %}
 <nav class="navbar navbar-expand-md navbar-light bg-light" id="nav">
   <span id="username">Hi {{ user.username }}!</span>
-  <a class="navbar-nav mr-auto" href="{% url 'logout' %}">Log Out</a>
-
+  <a id="navItem" href="{% url 'logout' %}">Log Out</a>
 </nav>
 
     <h3>Welcome to InterIntel Technologies.</h3>
