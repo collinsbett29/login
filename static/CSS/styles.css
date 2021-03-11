@@ -2,7 +2,9 @@
     color: #4a4a4a;
     text-align: center;
     padding: 20;
-
+}
+.h2{
+    align-items: center;
 }
 
 #nav{
@@ -13,9 +15,10 @@
 }
 
 #username{
-    color: #F0F5FE;
+    color: #bec4cf;
 }
 
 #navItem{
-    justify-self: right;
+    padding-left: 800px;
+    align-items: flex-end;
 }
