@@ -38,14 +38,16 @@ Collins Kipkorir Bett
 | Behavior        | Input           | Output |
 | ------------- |:-------------:| -----:|
 | Display a login page | N/A | **Click** login to be redirected to a login form |
-| Display a login form | Fill the login form and `click login`s | You will be redirected to InterIntel homepage |
-| Display current user logged in and the homepage | **Click** LOGOUT to logout | You will looged out and redirected to login page |
+| Display a login form | Fill the login form and `click login` | You will be redirected to InterIntel homepage |
+| Display current user logged, homepage and LOGOUT button | **Click** LOGOUT to logout | You will logged out and redirected to login page |
 
 ## Deployment
 -Install uwsgi into the virtual environment.
+
    ```$pip install uwsgi```
 
 -Run uwisgi
+
    ```uwsgi --http :8000 --wsgi-file test.py```
 
 ## Technologies Used
@@ -62,7 +64,7 @@ Collins Kipkorir Bett
 This project is licenced under the MIT License.
 
 
-            © Collins K. Bett | 2021
+                                © Collins K. Bett | 2021
 
 
 
