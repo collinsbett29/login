@@ -35,6 +35,7 @@ Collins Kipkorir Bett
 
 ## Running the Development server
   ```$ python3.6 manage.py runserver```
+  ![Screenshot (15)](https://user-images.githubusercontent.com/53792668/111326782-e40ca500-867d-11eb-8276-d7653bf9954d.png)
 
 ## Specifications
 
