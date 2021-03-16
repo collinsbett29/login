@@ -23,7 +23,7 @@ Collins Kipkorir Bett
 
    ```$ env\Scripts\activate```
 
-<img src=<img src=“https://github.com/KrisKasprzak/ILI9341_t3_controls 392”>
+<img src=<img src=“https://imgur.com/dKlqOnH 392”>
 
 * install Django
 
