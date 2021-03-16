@@ -24,7 +24,7 @@ Collins Kipkorir Bett
    ```$ env\Scripts\activate```
 
 
-![](images/screenshot(13).png)
+![Screenshot (13)](https://user-images.githubusercontent.com/53792668/111326209-6ba5e400-867d-11eb-9012-c950b6dca090.png)
 
 * install Django
 
