@@ -23,6 +23,8 @@ Collins Kipkorir Bett
 
    ```$ env\Scripts\activate```
 
+<img src=<img src=“https://github.com/KrisKasprzak/ILI9341_t3_controls 392”>
+
 * install Django
 
    ```$ pip install  Django==3.1.5```
@@ -39,7 +41,7 @@ Collins Kipkorir Bett
 | ------------- |:-------------:| -----:|
 | Display a login page | N/A | **Click** login to be redirected to a login form |
 | Display a login form | Fill the login form and `click login` | You will be redirected to InterIntel homepage |
-| Display current user logged, homepage and LOGOUT button | **Click** LOGOUT to logout | You will logged out and redirected to login page |
+| Display current user logged, homepage and LOGOUT button | **Click** LOGOUT button to logout | You will logged out and redirected to login page |
 
 ## Deployment
 -Install uwsgi into the virtual environment.
