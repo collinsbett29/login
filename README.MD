@@ -23,7 +23,7 @@ Collins Kipkorir Bett
 
    ```$ env\Scripts\activate```
 
-<img src=<img src=“https://imgur.com/dKlqOnH 392”>
+<img src=“https://imgur.com/dKlqOnH 392”>
 
 * install Django
 
