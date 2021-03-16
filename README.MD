@@ -1,18 +1,17 @@
-# InterIntel Login Page
+# INTERINTEL TECHNOLOGIES LOGIN PAGE
 
 ### Built By;
 Collins Kipkorir Bett
 
 ### Description
 - This application was built by Django==3.1.5 a python framework.
-
 - This is a login and a success login page web application.
 
 
 ## Setup/Installation Requirements
 
 * Install python version 3.9.2
-* Clone https://github.com/collinsbett29/Insta-clone.git
+* Clone https://github.com/collinsbett29/login
 * Atleast have a computer or a laptop
 * Have a stable internet connection
 
@@ -42,7 +41,12 @@ Collins Kipkorir Bett
 | Display a login form | Fill the login form and `click login`s | You will be redirected to InterIntel homepage |
 | Display current user logged in and the homepage | **Click** LOGOUT to logout | You will looged out and redirected to login page |
 
+## Deployment
+-Install uwsgi into the virtual environment.
+   ```$pip install uwsgi```
 
+-Run uwisgi
+   ```uwsgi --http :8000 --wsgi-file test.py```
 
 ## Technologies Used
 
